@@ -1,0 +1,28 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f4f6f8;
+    padding: 10px 20px;
+
+
+}
+
+.logoIcon {
+    width: 100px;
+    height: 30px;
+}
+
+.helpWrapper {
+    background: #645AFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    width: 60px;
+}
+
+.content {
+    width: 100vw;
+    height: calc(100vh - 54px);
+    background-color: #eee;
+}
