@@ -1,9 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-// import { Home } from '@/pages/home'
-// import { Layout } from '@/pages/components/layout'
-// import { Test } from '@/pages/test'
-import { Home, Test, Layout } from '@/pages'
+import { Home, TestForm, Layout, Test, MyImageList, CheckoutBoxGroup, ReactHookFormLearn } from '@/pages'
 
 function App() {
   return (
@@ -11,7 +8,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path='testForm' element={<TestForm />} />
           <Route path='test' element={<Test />} />
+          <Route path='imageList' element={<MyImageList />} />
+          <Route path='checkoutBoxGroup' element={<CheckoutBoxGroup />} />
+          <Route path='reactHookFormLearn' element={<ReactHookFormLearn />} />
         </Route>
       </Routes>
     </div>

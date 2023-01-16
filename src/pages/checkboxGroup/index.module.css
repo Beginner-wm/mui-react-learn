@@ -1,0 +1,38 @@
+.wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
+.empty {
+   height: 30px;
+}
+
+.root {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   /* justify-content: center; */
+}
+.formPart{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+
+.formPart .textField {
+   width: 400;
+   margin: 10px
+}
+
+.form .button {
+align-items: center;
+display: flex;
+justify-content: space-between;
+
+}
+.form .rightIcon{
+   font-size: 20px;
+
+}

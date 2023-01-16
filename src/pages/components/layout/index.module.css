@@ -1,10 +1,20 @@
 .navigation {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #f4f6f8;
-    padding: 10px 20px;
-
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 55px;
+    width: 100vw;
+    background-color: #fff;
+    z-index: 99;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
 }
 
 .logoIcon {
@@ -22,7 +32,9 @@
 }
 
 .content {
+    margin-top: 55px;
     width: 100vw;
-    height: calc(100vh - 54px);
+    height: calc(100vh - 75px);
     background-color: #eee;
+    padding: 20px 10px 0;
 }
