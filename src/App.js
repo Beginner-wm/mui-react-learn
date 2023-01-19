@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import { Home, TestForm, Layout, Test, MyImageList, CheckoutBoxGroup, ReactHookFormLearn } from '@/pages'
+import { Home, TestForm, Layout, Test, MyImageList, CheckoutBoxGroup, ReactHookFormLearn,TestReduxToolkit } from '@/pages'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
           <Route path='imageList' element={<MyImageList />} />
           <Route path='checkoutBoxGroup' element={<CheckoutBoxGroup />} />
           <Route path='reactHookFormLearn' element={<ReactHookFormLearn />} />
+          <Route path='testReduxToolkit' element={<TestReduxToolkit />} />
         </Route>
       </Routes>
     </div>
